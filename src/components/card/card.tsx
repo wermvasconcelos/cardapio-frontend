@@ -8,9 +8,9 @@ interface CardProps{
 export function Card({ price, image, title }: CardProps) {
     return (
         <div className="card">
-            <img src={image} alt={title} /> {/* Use src e alt para a tag img */}
-            <h2>{title}</h2> {/* Exiba o título */}
-            <p><b>Valor:</b> {price}</p> {/* Exiba o preço */}
+            <img src={image}/>
+            <h2>{title}</h2>
+            <p><b>Valor:</b> {price}</p> 
         </div>
     )
 }
